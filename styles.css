@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+body{
+    background-color: #e8daef  ;
+}
+
+
+.titulo{
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: blue;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 3px 3px 3px blueviolet;
+}
+
+.link{
+    color: blue;
+}
+
+.indicadores{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ma{
+    color: #48c9b0;
+    background-color: #48c9b0 ;
+}
+
+.Ma{
+    background-color:  #48c9b0 ;
+}
+
+.Ma:hover{
+    background-color:  #a3e4d7 ;
+}
+
+.mat{
+    background-color:  #fb8787 ;
+}
+
+.Mat{
+    background-color: #fb8787  ;
+}
+
+.Mat:hover{
+    background-color: #fdb5b5 ;
+}
+
+.mtn{
+    background-color:  #d3a3ff ;
+}
+
+.Mtn{
+    background-color:  #d3a3ff ;
+}
+
+.Mtn:hover{
+    background-color:  #e0c6f8 ;
+}
+
+.mptn{
+    background-color:  #92f9c7 ;
+}
+
+.Mptn{
+    background-color:  #92f9c7 ;
+}
+
+.Mptn:hover{
+    background-color:  #c4fbe0 ;
+}
+
+.mtds{
+    background-color:  #fee697 ;
+}
+
+.Mtds{
+    background-color:  #fee697 ;
+}
+
+.Mtds:hover{
+    background-color:  #fceebf ;
+}
+
+.nmr{
+    background-color: #47feff ;
+}
+
+.Nomr{
+    background-color: #47feff;
+}
+
+.Nomr:hover{
+    background-color: #bcfeff;
+}
+
+.gn{
+    background-color:  #fdb282   ;
+}
+
+.Gn{
+    background-color:  #fdb282 ;
+}
+
+.Gn:hover{
+    background-color:  #fcd2b7 ;
+}
+
+.clspn{
+    background-color: #e8daef;
+}
+
+.itnds{
+    background-color: #9ffb88 ;
+}
+.Itnds{
+    background-color:  #9ffb88 ;
+}
+
+.Itnds:hover{
+    background-color:   #cefec2  ;
+}
+
+.actds{
+    background-color:  #f98ce2 ;
+}
+
+.Actds{
+    background-color:  #f98ce2 ;
+}
+
+.Actds:hover{
+    background-color:  #fec4f2 ;
+}
+
+.pds{
+    background-color:  #bcbabb ;
+}
+
+.Pds{
+    background-color:  #bcbabb ;
+}
+
+.Pds:hover{
+    background-color:  #d7d5d6 ;
+}
+
+.slya{
+    background-color: #e8daef;
+    color: #e8daef;
+}
+
+.tablap{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
