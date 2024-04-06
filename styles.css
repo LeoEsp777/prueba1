@@ -3,8 +3,9 @@
 body{
     background-color: #e8daef  ;
     zoom: 80%;
+    position: relative;
+    padding-bottom: 75px; /* 75px ideal */
 }
-
 
 .contenedor{
     font-size: 30px;    
@@ -14,10 +15,37 @@ body{
     font-family: "Galada", cursive;
     font-weight: 400;
     font-style: normal;
+    padding: 5px;
     color: blue;
-    text-align: center;
+    text-align: center;width: 100%;
     text-shadow: 3px 3px 3px blueviolet;
     width: 100%;
+    margin-top: 0;
+}
+
+.footeR{
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+}
+
+.fuds{
+    color: white;
+}
+
+.f1{
+    display: inline-block;
+    background-color: black;
+}
+
+.f2{
+    display: inline-block;
+    background-color: black;
 }
 
 .link{
@@ -163,5 +191,59 @@ body{
     margin-right: auto;
 }
 
+.elm{
+    border: 5px solid black;
+    background-color:  #e622ff ;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    width: 600px;
+    height: 350px;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 235px;
+    padding: 0px 1px 15px 1px;
+    border-radius: 10px;
+    display: none;
+}
 
+.ec{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+.txt{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.txto{
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 195px;
+}
+
+.atb{
+    position: absolute;
+    left: 60px;
+    bottom: 65px;
+}
+
+.exit{
+    position: absolute;
+    width: 30px;
+    top: 5px;
+    right: 10px;
+}
+
+.boton{
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+}
