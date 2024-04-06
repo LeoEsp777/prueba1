@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <div class="contenedor">
         <h1 class="titulo">TABLA PERIODICA DE LOS ELEMENTOS QUIMICOS</h1>
     </div>
@@ -43,7 +44,7 @@
     <br>
     <table class="tablap" border="1">
         <tr>
-            <th class="Nomr">H <br>Hidrógeno</th>
+            <th id="1" class="Nomr"><a href="javascript:abrir()">H <br>Hidrógeno</a></th>
             <th colspan="16"></th>
             <th class="Gn">He <br>Helio</th>
         </tr>
@@ -191,16 +192,39 @@
             <th></th>
         </tr>
     </table>
-    <hr>
-    <h3>hidrogeno 1</h3>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Hidr%C3%B3geno_atom.gif" alt="Hidrogeno" width="300" height="200">
-    <hr>
-    <p>Radio atomico: 0.30 Angs</p>
-    <hr>
-    <p>Estructura cristalina: Hexagonal </p>
-    <img src="https://cdn-0.material-properties.org/wp-content/uploads/2020/10/crystal-structure-body-centered-cubic.gif" alt="" width="300" height="200">
-    <hr>
-    <hr>
-    <footer><a target="_blank" href="links.html">Fuentes Usadas</a></footer>
+    
+    
+    
+    <div id="vent" class="elm">    
+        
+        <a href="javascript:cerrar()"><img class="exit" src="recursos/cerrar.png" alt=""></a>
+        <h1>Hidrogeno</h1>
+
+        <div class="txto">
+        <p class="txt"> El hidrógeno es el elemento químico de número atómico 1, representado por el símbolo H. Con una masa atómica de 1.00784, es el más ligero de la tabla periódica de los elementos. </p>
+        </div>
+
+        <div class="atb">
+        <p class="txt">Radio atomico: 0.30 Angs <br> <br> Estructura cristalina: Hexagonal</p>
+        </div>
+
+        <img class="ec" src="https://material-properties.org/wp-content/uploads/2020/10/crystal-structure-hexagonal.gif
+        " alt="E.Cristalina Hexagonal" width="190" height="190">
+
+        <a class="boton" target="_blank" href="https://es.wikipedia.org/wiki/Hidr%C3%B3geno"><button>Saber más</button></a>
+
+    </div>
+
+    <footer class="footeR">
+        <div class="f1">
+        <a class="fuds" target"_blank" href="links.html">Fuentes Usadas</a> 
+        </div>
+        <div class="f2">
+        <a target="_blank" href="#" class="fuds">Hecho por</a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+
 </body>
 </html>
